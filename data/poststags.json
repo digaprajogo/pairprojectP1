@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Kucing Pertamaku",
+    "PostId": 1,
+    "TagId": 3
+  },
+  {
+    "title": "Liburan bersama keluarga",
+    "PostId": 2,
+    "TagId": 2
+  },
+  {
+    "title": "Demi menjadi software engineer",
+    "PostId": 3,
+    "TagId": 4
+  },
+  {
+    "title": "Boikot hewan selain kucing!",
+    "PostId": 4,
+    "TagId": 3
+  }
+]

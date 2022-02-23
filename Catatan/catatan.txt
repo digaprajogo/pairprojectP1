@@ -1,0 +1,2 @@
+1 udah npm init -y
+ejs, express, pg, sequelize, sequelize-cli

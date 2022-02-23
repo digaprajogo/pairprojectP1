@@ -1,0 +1,7 @@
+0. get login
+1. get register
+2. post handleregister redirect /profile/:UserId 
+3 bisa create Posts, get /profile/:UserId/addPost utk button 
+4. button posts list, nanti ngarah ke form 
+3. get /profile/:UserId halamanprofile  button untuk ke profile orang
+4.

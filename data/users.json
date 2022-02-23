@@ -1,0 +1,20 @@
+[
+    {
+        "userName": "BudiNasution69",
+        "email": "BudiN@gmail.com",
+        "password": "BudiN",
+        "role": "Beginner"
+    },
+    {
+        "userName": "SantosaRusdi",
+        "email": "SantosaR@rocketmail.com",
+        "password": "SantosaR",
+        "role": "Expert"
+    },
+    {
+        "userName": "PromiseHell96",
+        "email": "PromiseH@gmail.com",
+        "password": "PromiseH",
+        "role": "Professional"
+    }
+]

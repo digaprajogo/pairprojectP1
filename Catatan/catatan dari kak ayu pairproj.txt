@@ -1,0 +1,65 @@
+getter opsional, static method dan instace method wajib ada
+
+validasi minimal dua
+
+harus ada CRUD
+
+hooks buat password
+
+helper juga mesti ada
+
+MVP 
+cari package lain
+
+nodemailer
+google docs multer
+
+PROS sosmed :
+Sosmed user post 1toM
+Posts ke Tag MtoM
+
+Ecommerce User pembeli
+pembeli M to M product
+Category 1 to M product
+
+Postingan berupa gambar nanti tiap poast ada captiopnnya berupa 
+
+Role isi dua biji, rolenya bias reguler dan premium, 
+nanti kalo posting 10 kali lebih rolenya bisa berubah
+
+jadi hooks buat sebelum createpost untuk ngecek ini postingan ke berapa, kalo misal potingan ke 109 bakal update si rolenya jadi premium
+
+jangan bikin CRUD di semuanya, harus ada dummynya aja
+bisa seeders untuk tags , jadi tags gaada CUD.
+
+yg pasti user udah ada Craeate
+
+cregister termasuk creatae
+
+postingan termasuk create
+
+tentuin routesnya
+
+List features 
+1. register create user, nanti di formnya udah ada . pastiin kalo dia register pastiin tentang bio nya dll. saat register create data ke dua table
+2. read profiles, gabungan nama dan post dsb dsb,
+
+3. create post
+4. update post 
+5. delete post 
+6. 
+
+ceritanya kalo create post ada piliihan tags apa aja biar connect.
+
+fitur real live chat namanya socketio nodemailer
+socket io bisa bikin web dinamis, atau chatting
+
+NPM itu node mailer utk ngirim email kalo berhasil post
+
+kalo google calendar nanti misal kita bikin event bisa bikin event di google calendar
+
+chart itu npm 
+
+applikasi sosmed bisa semuanya
+
+i18, bisa ubah semua aplikasi jadi bahasa nya
