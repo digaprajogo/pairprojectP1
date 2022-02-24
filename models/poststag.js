@@ -16,7 +16,9 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Poststag.init({
-    name: DataTypes.STRING
+    name: DataTypes.STRING,
+    PostId: DataTypes.INTEGER,
+    TagId: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'Poststag',

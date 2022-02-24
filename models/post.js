@@ -21,7 +21,8 @@ module.exports = (sequelize, DataTypes) => {
     postUrl: DataTypes.STRING,
     caption: DataTypes.STRING,
     like: DataTypes.INTEGER,
-    dislike: DataTypes.INTEGER
+    dislike: DataTypes.INTEGER,
+    ProfileId: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'Post',
