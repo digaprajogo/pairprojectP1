@@ -15,6 +15,13 @@ module.exports = (sequelize, DataTypes) => {
       Post.hasMany(models.Poststag, { foreignKey: "PostId" });
       Post.belongsToMany(models.Tag, { through: models.Poststag });
     }
+
+    get Ratio(){
+      if((this.like - this.dislike)/(this.like + this.dislike) * 100 < 25) return 'Not reccomended post'
+      else if((this.like - this.dislike)/(this.like + this.dislike) * 100 < 50) return 'Unpopular post'
+      else if((this.like - this.dislike)/(this.like + this.dislike) * 100 < 75) return 'Popular post'      
+      else return 'Reccomended post'      
+    }
   }
   Post.init({
     title: DataTypes.STRING,
