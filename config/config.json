@@ -14,7 +14,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable":"postgres://hkybjmgrvmlqgr:07fa79d74677724f58988b67840d3e7a7723e24a6077c906f6097d600f420d5d@ec2-52-73-149-159.compute-1.amazonaws.com:5432/db31rhjsuggs0s",
+    "use_env_variable":"DATABASE_URL",
     "ssl": true,
     "dialect": "postgres",
     "protocol": "postgres",
