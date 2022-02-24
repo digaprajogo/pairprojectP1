@@ -1,0 +1,32 @@
+{
+  "name": "pairprojectp1",
+  "version": "1.0.0",
+  "description": "Bismillah",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digaprajogo/pairprojectP1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digaprajogo/pairprojectP1/issues"
+  },
+  "homepage": "https://github.com/digaprajogo/pairprojectP1#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "geolocation": "^0.2.0",
+    "pg": "^8.7.3",
+    "sequelize": "^6.16.2"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.4.1"
+  }
+}

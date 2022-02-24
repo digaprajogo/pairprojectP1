@@ -1,0 +1,18 @@
+0. get login
+1. get register
+2. post handleregister redirect /profile/:UserId, kalo mau langsung dianggap login, di session harus cek udah login apa blm dan di cek siapa yg login, bisa pake next juga. plg bener abis login set session terus res redirect.
+3 bisa create Posts, get /profile/:UserId/addPost utk button 
+4. button posts list, nanti ngarah ke form 
+3. get /profile/:UserId halamanprofile  button untuk ke profile orang
+4. 
+
+MVP itu fitur selain CRUD
+1. socket.io, fitur chat semua orang
+2. getLocation(perlu nambahin 2 kolom longitude altitude , jam kapan dia terakhir update, kalo ada org masuk ke dalam profile dia bisa cek dia lagi dimana dan jam berapa), simpan location di profile, dan punya button update location. dan org lain bisa ngeliat, pake middleware
+id disimpen di session , di cek sama gak sama routes. atau bisa juga dikondisiiin di routes. 
+
+atau bisa bikin controller yg berbeda juga.
+user/personal info
+/user/userId
+
+atau bisa bikin view ejs 2 juga bisa

@@ -1,0 +1,23 @@
+[
+  {
+      "firstName": "Budi",
+      "lastName": "Nasution",
+      "bio": "Saya Suka Kucing",
+      "profileUrl": "https://media.suara.com/pictures/653x366/2020/09/02/58683-kaesang-pangarep-igkaesangp.jpg",
+      "UserId": 1
+  },
+  {
+      "firstName": "Santosa",
+      "lastName": "Rusdi",
+      "bio": "Saya Gak Suka Kucing",
+      "profileUrl": "https://media-assets-ggwp.s3.ap-southeast-1.amazonaws.com/2020/07/arti-wibu-cv-640x360.jpg",
+      "UserId": 2
+  },
+  {
+      "firstName": "Promise",
+      "lastName": "Hell",
+      "bio": "Saya temennya wibu",
+      "profileUrl": "https://s3.bukalapak.com/img/3667279067/large/_terlalu_tampan_orang_ganteng_yang_gila_karena_liat_gebetann.jpg.webp",
+      "UserId": 3
+  }
+]
