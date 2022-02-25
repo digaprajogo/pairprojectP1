@@ -67,7 +67,7 @@ class Controller {
             })
             .then(result2 => {
                 data2 = result2
-                res.render('showprofile', { data1, data2, formatDate })
+                res.render('showProfile', { data1, data2, formatDate })
             })
             .catch(error => {
                 res.send(error)
