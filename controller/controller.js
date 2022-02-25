@@ -29,6 +29,7 @@ class Controller {
     }
 
     static register(req, res) {
+        //Transaction untuk antisipasi validasi ini.
         const { userName, email, password, firstName, lastName, bio, profileUrl } = req.body
         const dataUser = { userName, email, password }
         User.create(dataUser)
@@ -121,11 +122,11 @@ class Controller {
                         return res.redirect(`/profile/${data.id}`)
                     } else {
                         const error = 'invalid username/password'
-                        return res.redirect(`/?error=${error}`)
+                        return res.redirect(`/login?error=${error}`)
                     }
                 } else {
                     const error = 'invalid username/password'
-                    return res.redirect(`/?error=${error}`)
+                    return res.redirect(`/login?error=${error}`)
                 }
             })
             .catch(function (err) {
