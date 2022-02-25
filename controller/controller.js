@@ -29,6 +29,7 @@ class Controller {
     }
 
     static register(req, res) {
+        //Transaction untuk antisipasi validasi ini.
         const { userName, email, password, firstName, lastName, bio, profileUrl } = req.body
         const dataUser = { userName, email, password }
         User.create(dataUser)
@@ -66,7 +67,7 @@ class Controller {
             })
             .then(result2 => {
                 data2 = result2
-                res.render('showprofile', { data1, data2, formatDate })
+                res.render('showProfile', { data1, data2, formatDate })
             })
             .catch(error => {
                 res.send(error)
@@ -117,16 +118,15 @@ class Controller {
                 if (data) {
                     const validatePasword = bcrypt.compareSync(password, data.password);
                     if (validatePasword || password === data.password) {
-                        console.log('masuk NIHHH');
                         req.session.userId = data.id
                         return res.redirect(`/profile/${data.id}`)
                     } else {
                         const error = 'invalid username/password'
-                        return res.redirect(`/?error=${error}`)
+                        return res.redirect(`/login?error=${error}`)
                     }
                 } else {
                     const error = 'invalid username/password'
-                    return res.redirect(`/?error=${error}`)
+                    return res.redirect(`/login?error=${error}`)
                 }
             })
             .catch(function (err) {

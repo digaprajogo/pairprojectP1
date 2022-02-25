@@ -18,7 +18,6 @@ module.exports = {
        el.createdAt = new Date()
        el.updatedAt = new Date()
      });
-     // console.log(data);
      return queryInterface.bulkInsert('Tags', data, {})
   },
 
