@@ -17,7 +17,6 @@ router.get('/register', Controller.signUp)
 router.post('/register', Controller.register)
 
 router.use((req, res, next) => {
-  console.log(req.session);
   if (!req.session.userId) {
     const error = 'Please Login First!'
     res.redirect(`/login?error=${error}`)

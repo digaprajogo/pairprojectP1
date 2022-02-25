@@ -117,7 +117,6 @@ class Controller {
                 if (data) {
                     const validatePasword = bcrypt.compareSync(password, data.password);
                     if (validatePasword || password === data.password) {
-                        console.log('masuk NIHHH');
                         req.session.userId = data.id
                         return res.redirect(`/profile/${data.id}`)
                     } else {
